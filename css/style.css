@@ -15,12 +15,24 @@ a:hover {
 }
 
 h2 {
-    font-family: 'Charm', cursive;
+    /* font-family: 'Charm', cursive; */
 }
 
 .content-wrap {
     max-width: 950px;
     margin-left: 100px;
+}
+
+.col-narrow {
+    width: 30%;
+    float: left;
+    min-height: 120px;
+}
+
+.col-wide {
+    width: 70%;
+    float: left;
+    min-height: 120px;
 }
 
 /* Header and footer */
@@ -40,6 +52,12 @@ header h1, header h2 {
 header h1 {
     font-family: 'Cinzel', serif;
     font-size: 40px;
+}
+
+footer {
+    clear: both;
+    position: relative;
+    bottom:0;
 }
 
 /* Home */
