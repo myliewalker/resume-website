@@ -1,6 +1,6 @@
 /* Global styles */
 body {
-    background: lightblue;
+    background: white;
     font-family: 'Nanum Myeongjo', serif;
 }
 
@@ -18,7 +18,10 @@ h2 {
 }
 
 #home {
-    background-image: url(../images/city.jpg);
+    background-image: url(../images/met.jpg);
+    background-size: cover;
+    background-position: top;
+    background-size: 100% 200%;
     color: lightcyan;
     font-size: 40px;
     text-align: center;
@@ -45,11 +48,5 @@ header h1 {
 }
 
 /* Work experience */
-.work {
-    background: #FFFDF7;
-}
 
 /* Education */
-.education {
-    background: mintcream;
-}
