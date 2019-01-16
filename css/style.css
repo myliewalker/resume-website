@@ -21,9 +21,11 @@ h2 {
     background-image: url(../images/city.jpg);
     color: lightcyan;
     font-size: 40px;
+    text-align: center;
+    margin-top: 350px;
 }
-#home a:hover {
-    color: lightgray;
+.about #home a:hover {
+    color: rgb(246, 254, 255);
 }
 
 /* Header and footer */
