@@ -1,0 +1,53 @@
+/* Global styles */
+body {
+    background: lightblue;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+a {
+    color: lightcyan;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    font-family: 'Charm', cursive;
+}
+
+#home {
+    background-image: url(../images/city.jpg);
+    color: lightcyan;
+    font-size: 40px;
+}
+#home a:hover {
+    color: lightgray;
+}
+
+/* Header and footer */
+header, footer {
+    background: #0A2342;
+    color: lightsteelblue;
+    text-align: center;
+}
+
+header h1, header h2 {
+    color: lightskyblue;
+}
+
+header h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 40px;
+}
+
+/* Work experience */
+.work {
+    background: #FFFDF7;
+}
+
+/* Education */
+.education {
+    background: mintcream;
+}
